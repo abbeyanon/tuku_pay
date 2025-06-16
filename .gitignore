@@ -1,0 +1,32 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore database and local config
+site_config.json
+db_name.*
+*.db
+
+# Ignore backups and logs
+private/backups/
+logs/
+
+# Ignore node and js build artifacts (if any)
+node_modules/
+*.log
+
+# Ignore assets (they can be regenerated)
+public/assets/
+public/files/
+public/.DS_Store
+
+# Ignore virtual environments
+env/
+venv/
+
+# OS/Editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
