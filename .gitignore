@@ -30,3 +30,8 @@ venv/
 *.swo
 .idea/
 .vscode/
+
+# Ignore auto-generated bench files
+indexes/
+locks/
+touched_tables.json
